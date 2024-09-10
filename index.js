@@ -1,15 +1,15 @@
-let metas = {
-  value:false,
-  meta:'Ler um livro'
-}
-
-
-function checarMeta(meta){
-  let valor = metas.value;
-  if(valor){
-    return console.log('Leu o livro');
-  }else{
-    return console.log('Não leu o livro')
+const start = () => {
+ while(true){
+  let opcao = 'sair';
+  switch(opcao){
+    case 'cadastrar':
+      console.log('vamos cadastrar');
+      break;
+    case 'listar':
+      console.log('vamos listar');
+      break;
+    case 'sair':
+      return 
   }
+ }
 }
-checarMeta();
